@@ -25,7 +25,7 @@
 - Where `taco` is an int variable, start and end are the start and end of the specified range, and stepSize is how much the variable increments between loops (this can be a negative number if you want the loop to count down)
 - Start is optional, but is typically written out for clarity.
 - And then the contents of the loop are indented under that line.
-- range() creates something called a sequence object that creates each number as it is needed as opposed to using a list and stepping through it.
+- `range()` creates something called a sequence object that creates each number as it is needed as opposed to using a list and stepping through it.
 
 ### Operators
 
@@ -40,10 +40,11 @@
 - Python lets you slice strings or arrays like this: `taco[start:end]`
 - You can also use negative numbers to slice, counting from the end of the string or array
 
-### Functions
-
-- functions are defined simply:
+### Classes & Functions
+- See `FizzBuzz.py` for an example class with functions using `self`
+- Functions are defined simply:
 `def taco (burrito):`
 `  return burrito`
 
-- where `taco` is the function name and `burrito` is a variable being passed into `taco`
+- Where `taco` is the function name and `burrito` is a variable being passed into `taco`
+- `self` is the Python equivalent of `this`
